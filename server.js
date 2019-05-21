@@ -1,13 +1,22 @@
 const express = require("express")
 const mongoose = require("mongoose")
-
-//Dohvacanje podataka sa skripti users,profile,posts
+const bodyParser = require('body-parser')
 const users = require('./routes/api/users')
 const profile = require('./routes/api/profile')
 const posts = require('./routes/api/posts')
+const passport = require('passport')
 
 const app = express();
 
+//konfiguracija middlewarea za Body Parser
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
+
+//Koristenje passporta 
+app.use(passport.initialize())
+
+//passport config
+require('./config/passport')(passport)
 //Konfiguracija Baze
 const db = require('./config/keys').mongoURL;
 
