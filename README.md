@@ -1,4 +1,4 @@
-# Mern_stack_ucenje
+# Mern_Stack_Projekt
 Izrada jednostavne društvene mreže gdje developeri mogu izraditi svoj profil na kojem mogu objaviti svoje obrazovanje, iskustvo,
 prijašnje i sadašnje mjesto rada, vještine koje imaju, itd.
 Aplikacija se izrađuje u takozvanom Mern Stack formatu gdje se objedinju tehnologije MongoDB, Express, ReactJS, Node.js
