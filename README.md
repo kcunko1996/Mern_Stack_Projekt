@@ -8,11 +8,11 @@ Aplikacija je u izradi pomoću online tečaja MERN Stack Front To Back: Full Sta
 **ReactJS**, **MongoDB**, **Express**, **Node.js**, **Passport,js**, **Jsonwebtoken**, **bcryptjs**, **Redux**
 
 # Trenutačna faza prjekta 
-* Izrađen front-end dio za Landingm registraciju, login 
+* Izrađen front-end dio za Landing page, registraciju, login 
 * Omogućena registracija, login, logout korisnika, podaci korisnika se spremaju u MongoDB bazu koja se nalazi na cloud servisu MongoDB atlas
 * Korisnik je u mogućnosti biti prijavljen i nakon osvježavanja stranice zahvaljujući Jsonwebtokenu
 * Korišten je Redux za spremanje application statea
-* Praktički cijeli back end dio je napravljen (dodavanje komentara, objavljivanje postova, lajkanje, itd) 
+* Praktički cijeli back-end dio je napravljen (dodavanje komentara, objavljivanje postova, lajkanje, itd) 
 
 # Zadaci koji su još potrebni za dovršiti
 * Izrada ostatka Front-end za aplikaciju (dodavanje komentara, objavljivanje postova, lajkanje, itd)
